@@ -1,0 +1,29 @@
+{
+  "game": "Teenage Mutant Ninja Turtles (World 4 Players)",
+  "upstreamCommit": "22e2aebcccf888ba9a041bf6023f3381a4fc86dd",
+  "driverSHA256": "fee3c97e4f607eda1c2193ca20f67fbd376b08639e12cef6b579d50f412ff832",
+  "sourceSHA256": "6fba9a88000e4a2cc5cc28e44f375e59e07bf22f5e340dc3e65406fc9b248088",
+  "archiveSHA256": "842426132da94f3987543c74576df1b2388d4377054a3c01c82bdae83580d34c",
+  "soundROM": {
+    "filename": "963e20.g13",
+    "bytes": 32768,
+    "sha256": "523733bc14494f806ad3bb32479db6e853883dc9dd4517aef6dc4c2792d36a61"
+  },
+  "mappedROMBytes": 32768,
+  "fixedAddressEntries": 32768,
+  "excludedEntries": [],
+  "generatedCoreSHA256": "1ff983b72a8986306052271eb8b91eca6c668026f2e055b378c5472ec4556b99",
+  "generatedDispatchSHA256": "c508f7c53b6de3b66a36432733b73d7b85448dd9a3747fa002a81e2b479f7ba7",
+  "compilerSHA256": "710fabf1822e2142d64b9498a76bff96b2270de02e24c7be5f6838cb818c56de",
+  "opcodePolicy": "Fixed PC entry and complete operation/prefix-byte guards; no runtime decoder or fallback.",
+  "operandPolicy": "Original Zet operand and memory callbacks; operands remain live data.",
+  "interruptPolicy": "Original FBNeo IRQ/NMI timing, EI/RETN shadows and IM1/IM2 semantics; IM0 admits only original bus vectorFF fixedRST38.",
+  "unsupportedConfigurations": [
+    "Spectrum contention",
+    "MSX/custom timing",
+    "daisy-chain peripherals",
+    "execution outside mapped fixed ROM (including fetch-mapped sound RAM)"
+  ],
+  "build": "Compile z80.cpp (includes generated_z80.inc), no daisy/PIO/CTC implementation required. Bounded256-entry page functions.",
+  "validation": "Generation verifies pinned source and ROM identities, but does not measure executed coverage; see separate native/reference acceptance reports."
+}

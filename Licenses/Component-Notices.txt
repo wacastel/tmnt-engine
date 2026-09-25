@@ -1,0 +1,283 @@
+===== src/burn/burn.cpp =====
+// Burn - Drivers module
+
+===== src/burn/burn_memory.cpp =====
+// FB Neo memory management module
+
+// The purpose of this module is to offer replacement functions for standard C/C++ ones 
+// that allocate and free memory.  This should help deal with the problem of memory
+// leaks and non-null pointers on game exit.
+
+===== src/burn/load.cpp =====
+// Burn - Rom Loading module
+
+===== src/burn/tiles_generic.cpp =====
+/*================================================================================================
+Generic Tile Rendering Module - Uses the Colour-Depth Independent Image Transfer Method
+
+Supports 8 x 8, 16 x 16 and 32 x 32 with or without masking and with full flipping. The functions fully
+support varying colour-depths and palette offsets as well as all the usual variables.
+
+Call GenericTilesInit() in the driver Init function to store the drivers screen size for clipping.
+This function also calls BurnTransferInit().
+
+Call GenericTilesExit() in the driver Exit function to clear the screen size variables.
+Again, this function also calls BurnTransferExit().
+
+Otherwise, use the Transfer code as usual.
+================================================================================================*/
+
+===== src/burn/burn_shift.cpp =====
+// FBAlpha Toggable Shifter and Gear Display
+//
+// For how-to, search BurnShift in konami/d_chqflag.cpp :)
+//
+
+===== src/burn/burn_bitmap.cpp =====
+// FB Neo Bitmap Management System
+
+===== src/burn/timer.cpp =====
+// Timers (for Yamaha FM chips and generic)
+
+===== src/burn/cheat.cpp =====
+// Cheat module
+// Cheat file parser @ burner/conc.cpp
+
+===== src/burn/debug_track.cpp =====
+// A module to track if various support devices, cpus, sound modules are in use
+
+===== src/burn/drv/konami/k007342_k007420.cpp =====
+// license:BSD-3-Clause
+// copyright-holders:Fabio Priuli,Acho A. Tang, R. Belmont
+
+===== src/burn/drv/konami/k007452.cpp =====
+// K007452 multiplier/divider, silicon-RE, code & (c) by furrtek (Sean Gonsalves) April 2021
+
+===== src/burn/drv/konami/k051733.cpp =====
+// license:BSD-3-Clause
+// copyright-holders:Fabio Priuli, Acho A. Tang, R. Belmont
+/*
+Konami 051733
+------
+Sort of a protection device, used for collision detection, and for
+arithmetical operations.
+It is passed a few parameters, and returns the result.
+
+Memory map(preliminary):
+------------------------
+00-01 W operand 1
+02-03 W operand 2
+04-05 W operand 3
+
+00-01 R operand 1 / operand 2
+02-03 R operand 1 % operand 2
+04-05 R sqrt(operand 3 << 16)
+06    R random number (LFSR)
+
+06-07 W distance for collision check
+08-09 W Y pos of obj1
+0a-0b W X pos of obj1
+0c-0d W Y pos of obj2
+0e-0f W X pos of obj2
+07    R collision flags
+
+08-1f R mirror of 00-07
+
+10-11 W NMI timer (triggers NMI on overflow)
+12    W NMI enable (bit 0)
+13    W unknown
+
+Other addresses are unknown or unused.
+*/
+
+===== src/burn/drv/konami/k051960.cpp =====
+// license:BSD-3-Clause
+// copyright-holders:Fabio Priuli,Acho A. Tang, R. Belmont
+
+// K051960
+
+===== src/burn/drv/konami/k052109.cpp =====
+// license:BSD-3-Clause
+// copyright-holders:Fabio Priuli,Acho A. Tang, R. Belmont
+
+// K052109
+
+===== src/burn/drv/konami/k053245.cpp =====
+// license:BSD-3-Clause
+// copyright-holders:David Haywood
+
+// k053245
+
+===== src/burn/drv/konami/k053247.cpp =====
+// license:BSD-3-Clause
+// copyright-holders:David Haywood
+
+// k053247
+
+===== src/burn/drv/konami/k053250.cpp =====
+// license:BSD-3-Clause
+// copyright-holders:Olivier Galibert
+
+===== src/burn/drv/konami/k053251.cpp =====
+// license:BSD-3-Clause
+// copyright-holders:Fabio Priuli,Acho A. Tang, R. Belmont
+
+===== src/burn/drv/konami/k054000.cpp =====
+// license:BSD-3-Clause
+// copyright-holders:David Haywood, Angelo Salese, furrtek
+/**************************************************************************************************
+
+    Konami K054000 hitbox/math custom chip
+
+    Sort of a protection device, used for collision detection.
+    It is passed a few parameters, and returns a boolean telling if collision
+    happened. It has no access to gfx data, it only does arithmetical operations
+    on the parameters.
+
+    Thunder Cross II POST checks of this chip.
+    It literally tests the chip in an unit test fashion:
+      1. zeroing all ports;
+      2. test that status returns 0;
+      3. ping ACX reg 0 with 0xff;
+      4. test status = 1;
+      5. ping BCX reg 0 with 0xff;
+      6. test status = 0;
+      7. ping ACX reg 1 with 0xff;
+      8. test status = 1;
+      9. rinse and repeat until all registers are exausted.
+
+    The fun part is that game doesn't even access the chip at all during gameplay
+    (or at least not until stage 6, where game disallows continues) while the specific
+    "delta" registers are instead challenged by Vendetta OTG attacks (cfr. MT06393, MT07839).
+
+**************************************************************************************************/
+
+===== src/burn/drv/konami/k054338.cpp =====
+// 054338
+
+// license:BSD-3-Clause
+// copyright-holders:David Haywood
+
+===== src/burn/drv/konami/k055555.cpp =====
+// 055555
+
+// license:BSD-3-Clause
+// copyright-holders:David Haywood
+
+===== src/burn/drv/konami/k056832.cpp =====
+// Based on MAME sources by David Haywood
+
+===== src/burn/drv/konami/konamigx.cpp =====
+// license:BSD-3-Clause
+// copyright-holders:R. Belmont, Acho A. Tang, Phil Stroffolino, Olivier Galibert
+
+===== src/burn/devices/joyprocess.cpp =====
+// JoyProcess (c)2016-2021 dink & iq_132
+
+===== src/burn/devices/eeprom.cpp =====
+// MAME sources by ????
+
+===== src/burn/snd/burn_ym2151.cpp =====
+// FBAlpha YM-2151 sound core interface
+
+===== src/burn/snd/ym2151.c =====
+// Based on MAME sources by Jarek Burczynski
+/*****************************************************************************
+*
+*	Yamaha YM2151 driver (version 2.150 final beta)
+*
+******************************************************************************/
+
+===== src/burn/snd/upd7759.cpp =====
+// Based on MAME driver by Juergen Buchmueller, Mike Balfour, Howie Cohen, Olivier Galibert, Aaron Giles
+
+===== src/burn/snd/k007232.cpp =====
+// copyright-holders:Nicola Salmoria,Hiromitsu Shioya
+/*********************************************************/
+/*    Konami PCM controller                              */
+/*********************************************************/
+
+/*
+  Changelog, Hiromitsu Shioya 02/05/2002
+  fix start address decode timing. (sample loop bug.)
+
+    Changelog, Mish, August 1999:
+        Removed interface support for different memory regions per channel.
+        Removed interface support for differing channel volume.
+
+        Added bankswitching.
+        Added support for multiple chips.
+
+        (Nb:  Should different memory regions per channel be needed
+        the bankswitching function can set this up).
+
+NS990821
+support for the k007232_VOL() macro.
+added external port callback, and functions to set the volume of the channels
+
+*/
+
+===== src/burn/snd/k053260.cpp =====
+// copyright-holders:Ernesto Corvi, Alex W. Jackson
+/*********************************************************
+
+    Konami 053260 KDSC
+
+    The 053260 is a four voice PCM/ADPCM sound chip that
+    also incorporates four 8-bit ports for communication
+    between a main CPU and audio CPU. The chip's output
+    is compatible with a YM3012 DAC, and it has a digital
+    auxiliary input compatible with the output of a YM2151.
+    Some games (e.g. Simpsons) only connect one channel of
+    the YM2151, but others (e.g. Thunder Cross II) connect
+    both channels for stereo mixing.
+
+    The 053260 has a 21-bit address bus and 8-bit data bus
+    to ROM, allowing it to access up to 2 megabytes of
+    sample data. Sample data can be either signed 8-bit
+    PCM or a custom 4-bit ADPCM format. It is possible for
+    two 053260 chips to share access to the same ROMs
+    (used by Over Drive)
+
+    The 053260 has separate address and data buses to the
+    audio CPU controlling it and to the main CPU. Both data
+    buses are 8 bit. The audio CPU address bus has 6 lines
+    (64 addressable registers, but fewer than 48 are
+    actually used) while the main CPU "bus" has only 1 line
+    (2 addressable registers). All registers on the audio
+    CPU side seem to be either read-only or write-only,
+    although some games write 0 to all the registers in a
+    loop at startup (including otherwise read-only or
+    entirely unused registers).
+    On the main CPU side, reads and writes to the same
+    address access different communication ports.
+
+    The sound data ROMs of Simpsons and Vendetta have
+    "headers" listing all the samples in the ROM, their
+    formats ("PCM" or "KADPCM"), start and end addresses.
+    The header data doesn't seem to be used by the hardware
+    (none of the other games have headers) but provides
+    useful information about the chip.
+
+    2004-02-28 (Oliver Achten)
+    Fixed ADPCM decoding. Games sound much better now.
+
+    2014-10-06 (Alex W. Jackson)
+    Rewrote from scratch in C++; implemented communication
+    ports properly; used the actual up counters instead of
+    converting to fractional sample position; fixed ADPCM
+    decoding bugs; added documentation.
+
+
+*********************************************************/
+
+===== src/burn/drv/konami/d_tmnt.cpp =====
+// FB Neo Teenage Mutant Ninja Turtle driver module
+// Based on MAME driver by Nicola Salmoria
+
+===== src/cpu/m68000_intf.cpp =====
+// 680x0 (Sixty Eight K) Interface
+
+===== src/cpu/z80_intf.cpp =====
+// Z80 (Zed Eight-Ty) Interface
+

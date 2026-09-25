@@ -1,0 +1,8 @@
+.DS_Store
+Assets/
+rom/
+build/
+__pycache__/
+*.pyc
+Sources/Native/generated*
+Sources/CPU/z80/generated_z80.inc

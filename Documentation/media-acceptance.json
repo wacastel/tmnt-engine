@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "files": 16,
+  "totalBytes": 4358656,
+  "matchingOptionalOriginalSources": [
+    "rom/tmnt",
+    "rom/tmnt.zip"
+  ],
+  "negativeCases": [
+    {
+      "case": "missing",
+      "pythonRejected": true,
+      "nativeRejected": true,
+      "nativeError": "Missing or unreadable TMNT ROM: 963-x23.j17"
+    },
+    {
+      "case": "short",
+      "pythonRejected": true,
+      "nativeRejected": true,
+      "nativeError": "Incorrect TMNT ROM size: 963-x23.j17"
+    },
+    {
+      "case": "extra",
+      "pythonRejected": true,
+      "nativeRejected": true,
+      "nativeError": "Incorrect TMNT ROM size: 963-x23.j17"
+    },
+    {
+      "case": "changed",
+      "pythonRejected": true,
+      "nativeRejected": true,
+      "nativeError": "Incorrect TMNT ROM SHA-256: 963-x23.j17"
+    }
+  ],
+  "manifestSHA256": "81ba1d99335ae4eea56002dfce138e36dd834cd172565867611d5d2d4b95c891"
+}

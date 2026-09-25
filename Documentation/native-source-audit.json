@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "archiveSHA256": "842426132da94f3987543c74576df1b2388d4377054a3c01c82bdae83580d34c",
+  "upstreamHardwareFilesChecked": 426,
+  "approvedHardwareEdits": [],
+  "unchangedCPUInterfaces": 4,
+  "builds": {
+    "native": {
+      "manifestSHA256": "46c35a8c2d9f45fdd1786fbe0e77c0f1ebbec36044c34c2edb7d24f1009d52fa",
+      "translationUnits": 62,
+      "librarySHA256": "7ec3c7b20d4a3e01da27ded982275239a52860b78dccb39b45719d46fc83b388"
+    },
+    "reference": {
+      "manifestSHA256": "9a090d387553db83fbe7caeb28bd5983ed5dbb2e410229afd26b14ce3926b8d7",
+      "translationUnits": 48,
+      "librarySHA256": "b87e24d0aba3879824d90cc213256f34b329fd73f52a2c1b777fd58b4ba979a1"
+    }
+  },
+  "dependencies": [
+    "\t/usr/lib/libz.1.dylib (compatibility version 1.0.0, current version 1.2.12)",
+    "\t/usr/lib/libc++.1.dylib (compatibility version 1.0.0, current version 2200.27.0)",
+    "\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1359.0.0)"
+  ],
+  "limits": "Structural isolation/source audit, not formal proof. Shared hardware models are not an independent arcade hardware oracle."
+}

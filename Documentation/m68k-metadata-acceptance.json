@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "comparisons": 65536,
+  "scope": "All possible instruction words: exact original handler identity and 68000 base cycles. Original table-builder C is compiled only into an isolated build-time oracle; it is not shipped.",
+  "generatedUpstreamOperationsSHA256": "b15c2345138e2f0a49b0339ad83baaccf3d705dc929e4bc3900d0e4e0b97844a",
+  "originalBuilderOracleSHA256": "1a5619e64219137096b43fa0a536a3f2676bb4fa225a4eff067e0868ada5e07b",
+  "generatorSHA256": "0dec35e4aef36f07800314dde709ee0ed0b328cf78ce8463467208a065548cf4",
+  "verificationSHA256": "45e0e80f8c1834346c98015bd7905f7be84d72e930aa00d391c9fa69838654b1",
+  "translationManifestSHA256": "6ffddbc466ef117fed2886b7c26f660bae1115fff4cd53c26f458bae3f797367"
+}

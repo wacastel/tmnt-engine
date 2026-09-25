@@ -1,0 +1,214 @@
+{
+  "upstreamCommit": "22e2aebcccf888ba9a041bf6023f3381a4fc86dd",
+  "archive": "Tools/ReferenceLab/fbneo-22e2aeb-source.tar.gz",
+  "archiveSHA256": "842426132da94f3987543c74576df1b2388d4377054a3c01c82bdae83580d34c",
+  "sourceURL": "https://github.com/finalburnneo/FBNeo/tree/22e2aebcccf888ba9a041bf6023f3381a4fc86dd",
+  "licenseFiles": {
+    "FBNeo.txt": "bb2369f1b75f42242968a78191b47ee90f85682224d3ad1ef63044e244b3e202",
+    "Z80.txt": "07c17e1763750139bfb4c71461ef3b7a2921ccc6d32e2d517796cb518ff6279d",
+    "Musashi.txt": "33837ee8485da6882dac0acd4f79910d47e12bef723253599a0a5e5827c8cbee",
+    "Component-Notices.txt": "a3cafc3fa8ee4df538b34a21f5cf5c9ce263b3e58ac91a4b25c06523d7ffe371"
+  },
+  "compiledUpstreamComponents": [
+    {
+      "compiledPath": "Sources/Hardware/burn/burn.cpp",
+      "upstreamPath": "src/burn/burn.cpp",
+      "upstreamSHA256": "c552754db5279a50748e41149db3cb44eebc8e4034d62b7b1bc655343558f139"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/burn_memory.cpp",
+      "upstreamPath": "src/burn/burn_memory.cpp",
+      "upstreamSHA256": "e07f9e6c6e093e5056530a2a3f5d619d79064b1b3ef36356d98a8428614cbb2a"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/burn_sound.cpp",
+      "upstreamPath": "src/burn/burn_sound.cpp",
+      "upstreamSHA256": "f47b2580bb19cb92f829f5be41f4066a1889e138077aabb5f0cb47782bd73658"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/burn_sound_c.cpp",
+      "upstreamPath": "src/burn/burn_sound_c.cpp",
+      "upstreamSHA256": "5600833e783bfb32547fd958cff13f161274dff643a5cbf067a623fbccb19157"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/load.cpp",
+      "upstreamPath": "src/burn/load.cpp",
+      "upstreamSHA256": "220d53ca82decfeabb8ccc1313a0ae8b2e687532484e8a5d57b8b7e0f0d748d5"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/tiles_generic.cpp",
+      "upstreamPath": "src/burn/tiles_generic.cpp",
+      "upstreamSHA256": "93ac03bd690ca11bafdc1f68e3a8da6b22689a72f54f03ded33836d3021b4e8a"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/tilemap_generic.cpp",
+      "upstreamPath": "src/burn/tilemap_generic.cpp",
+      "upstreamSHA256": "2bf942cbb21fa33625177f39ceb8353cfdc42cc43586b9a2b7cca31c037df6fd"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/burn_gun.cpp",
+      "upstreamPath": "src/burn/burn_gun.cpp",
+      "upstreamSHA256": "7ad06beab2c4d2afb98252a32178d53addf91c8b1c9b9265d83b0b8e08908cc4"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/burn_shift.cpp",
+      "upstreamPath": "src/burn/burn_shift.cpp",
+      "upstreamSHA256": "f37d9eda7d307dc2503c86427d3213e88c169cd9f3b6da144624881113e8f4b5"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/burn_pal.cpp",
+      "upstreamPath": "src/burn/burn_pal.cpp",
+      "upstreamSHA256": "d8a662c8981a3dd826430cfa7c0788502df36ce43f8a0f3ca7375e9ad3f8bf6f"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/burn_bitmap.cpp",
+      "upstreamPath": "src/burn/burn_bitmap.cpp",
+      "upstreamSHA256": "3b64138b601b518e4a9145730c4bc71eb18fe0f10ebc560a9bf47612e720526a"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/timer.cpp",
+      "upstreamPath": "src/burn/timer.cpp",
+      "upstreamSHA256": "6fbbc742123faab48f06fcb9e904a12a36699dc52289fdc306d2c2fce0ff01c3"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/cheat.cpp",
+      "upstreamPath": "src/burn/cheat.cpp",
+      "upstreamSHA256": "3fa4ac0cbe9a00a4f5253bfbb7e886e10d7e5496d872207e327c2c028443655c"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/debug_track.cpp",
+      "upstreamPath": "src/burn/debug_track.cpp",
+      "upstreamSHA256": "1eaac025e00a2c074d6e85b58e86595cc225fe1027a9af9161dbe4940b2e3eb5"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/drv/konami/k007121.cpp",
+      "upstreamPath": "src/burn/drv/konami/k007121.cpp",
+      "upstreamSHA256": "0e5d27174125d6e0fa701fd661a6006230cd9cac82b273ce3d11d29193eb47b1"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/drv/konami/k007342_k007420.cpp",
+      "upstreamPath": "src/burn/drv/konami/k007342_k007420.cpp",
+      "upstreamSHA256": "943646bab545b62fa0380c4585ac133e8e5a04ea5e42854255813749113cf825"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/drv/konami/k007452.cpp",
+      "upstreamPath": "src/burn/drv/konami/k007452.cpp",
+      "upstreamSHA256": "762e98e6c3efdcb7330a225cabc053e3df0d6cf338efae0d70779fd87830d3ad"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/drv/konami/k051733.cpp",
+      "upstreamPath": "src/burn/drv/konami/k051733.cpp",
+      "upstreamSHA256": "1676fcf24f006ba55ab91f98b825f086a54f12a9d996b3b2513f51308efc60b7"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/drv/konami/k051960.cpp",
+      "upstreamPath": "src/burn/drv/konami/k051960.cpp",
+      "upstreamSHA256": "3a40a2e67aad74a1fea87ee9f16874c042b4a38a402954d79460acb78549b36b"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/drv/konami/k052109.cpp",
+      "upstreamPath": "src/burn/drv/konami/k052109.cpp",
+      "upstreamSHA256": "63b3dc514ef7904c197ce7f49b32c3b084a90526c519a8cfff587fbdb02fef82"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/drv/konami/k053245.cpp",
+      "upstreamPath": "src/burn/drv/konami/k053245.cpp",
+      "upstreamSHA256": "050c06330b96f9ece75ca8fbc8f2c641c8d4dede660f15862c4448d13c4beec0"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/drv/konami/k053247.cpp",
+      "upstreamPath": "src/burn/drv/konami/k053247.cpp",
+      "upstreamSHA256": "8990cf2efbb553d274f56fdb62474ce1fdebf07ff8702e1f9d0546ff0a054963"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/drv/konami/k053250.cpp",
+      "upstreamPath": "src/burn/drv/konami/k053250.cpp",
+      "upstreamSHA256": "02d9e3b99cfc03e8f822acac80b6b4c59df9fce73f468ee9da0bc6d877bf9c8d"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/drv/konami/k053251.cpp",
+      "upstreamPath": "src/burn/drv/konami/k053251.cpp",
+      "upstreamSHA256": "84afeed297881d8cf0f75584aa95ddff65cd59ae465ee7648ece25c561f26fc5"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/drv/konami/k054000.cpp",
+      "upstreamPath": "src/burn/drv/konami/k054000.cpp",
+      "upstreamSHA256": "13c8fe53a3af9e2eecf17d17524ff24db1df63f15222120d2325e42a6ee3db57"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/drv/konami/k054338.cpp",
+      "upstreamPath": "src/burn/drv/konami/k054338.cpp",
+      "upstreamSHA256": "6a9639a53c006859c3593f2e88b9bfbf2262dd9d27997ed02c57a541357a419a"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/drv/konami/k055555.cpp",
+      "upstreamPath": "src/burn/drv/konami/k055555.cpp",
+      "upstreamSHA256": "dbafe7f4b43732a5a6bdae8044cd7d0d17eb5ebfe88c34733050129e420d5b11"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/drv/konami/k056832.cpp",
+      "upstreamPath": "src/burn/drv/konami/k056832.cpp",
+      "upstreamSHA256": "513405376d3e2441860b66104c78c68ca1609b2a1db5638832f6d115ae5c8bbc"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/drv/konami/konamigx.cpp",
+      "upstreamPath": "src/burn/drv/konami/konamigx.cpp",
+      "upstreamSHA256": "4cc38a8d92340ef665a1a0e0dcc892a0b4463d8f6f8d23a9ecf865b4f7ef289e"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/drv/konami/konamiic.cpp",
+      "upstreamPath": "src/burn/drv/konami/konamiic.cpp",
+      "upstreamSHA256": "06804f11f4f6f76e5296b6409dc56dc8290fe8fb86ecb8549744f0cc489d963c"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/devices/joyprocess.cpp",
+      "upstreamPath": "src/burn/devices/joyprocess.cpp",
+      "upstreamSHA256": "e659d612d5a395dc3a0cce6d14ac24b284020d34824eed28b5d8065ea5b75706"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/devices/eeprom.cpp",
+      "upstreamPath": "src/burn/devices/eeprom.cpp",
+      "upstreamSHA256": "2dd30544a25ed88f5be1ba36cb9e8a323549c02e3fd1daf95c8dda3f7d34cedb"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/snd/burn_ym2151.cpp",
+      "upstreamPath": "src/burn/snd/burn_ym2151.cpp",
+      "upstreamSHA256": "7de476de337f99d2f358de0c7ce24d51c185c13959c5f15969638c2fed32a2ea"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/snd/ym2151.c",
+      "upstreamPath": "src/burn/snd/ym2151.c",
+      "upstreamSHA256": "1d61f0c6e12ccfc927e2784da174575dbaeebaf1517e3a4d04e5aadabe348692"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/snd/upd7759.cpp",
+      "upstreamPath": "src/burn/snd/upd7759.cpp",
+      "upstreamSHA256": "97c93ffc3c2c02565312025764e907a77cc50d0f24afc71f35c0e396f09f64ab"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/snd/k007232.cpp",
+      "upstreamPath": "src/burn/snd/k007232.cpp",
+      "upstreamSHA256": "a9940eda5c1b83568c0e75e40f3fd0bb43356313d36eac506c341048829413b9"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/snd/k053260.cpp",
+      "upstreamPath": "src/burn/snd/k053260.cpp",
+      "upstreamSHA256": "a55aaf045bccda54ee0c5893cd16519ac6e51831c43dc60a224a011be978778d"
+    },
+    {
+      "compiledPath": "Sources/Hardware/burn/drv/konami/d_tmnt.cpp",
+      "upstreamPath": "src/burn/drv/konami/d_tmnt.cpp",
+      "upstreamSHA256": "fee3c97e4f607eda1c2193ca20f67fbd376b08639e12cef6b579d50f412ff832"
+    },
+    {
+      "compiledPath": "Sources/CPU/m68000_intf.cpp",
+      "upstreamPath": "src/cpu/m68000_intf.cpp",
+      "upstreamSHA256": "6a9a9a18ac507883cd308ccf99b0f3fe0431f89af4f37b673734bc8ec9006f1f"
+    },
+    {
+      "compiledPath": "Sources/CPU/z80_intf.cpp",
+      "upstreamPath": "src/cpu/z80_intf.cpp",
+      "upstreamSHA256": "0f6618e2b7545babf25a74835cf826a526d26ccf1f0c5e765bc32fa3297e4caf"
+    }
+  ]
+}

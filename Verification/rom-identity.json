@@ -1,0 +1,120 @@
+{
+  "game": "Teenage Mutant Ninja Turtles (World 4 Players, version X)",
+  "set": "tmnt",
+  "upstreamCommit": "22e2aebcccf888ba9a041bf6023f3381a4fc86dd",
+  "files": [
+    {
+      "name": "963-x23.j17",
+      "size": 131072,
+      "crc32": "a9549004",
+      "sha1": "bf9be5983af2282f627fb8408c069415c9b90229",
+      "sha256": "21799f06b3db70be47161d2af3b6b9230a3c7c0d516e0990392c8a829e101a6a"
+    },
+    {
+      "name": "963-x24.k17",
+      "size": 131072,
+      "crc32": "e5cc9067",
+      "sha1": "649db4a09864eb8aba44cb77b580f1f28cfd80ed",
+      "sha256": "f683a19bd7e8174d2e0fc423d9fc77ac27a3899fdf6c4b2f718b78ad268996e7"
+    },
+    {
+      "name": "963-x21.j15",
+      "size": 65536,
+      "crc32": "5789cf92",
+      "sha1": "c1d1c958813062e5df5ac62e90ee4ce11f7e4a24",
+      "sha256": "a852ff154d592360b8e699955a66509facad0d0e87f36dd6ba70901c81ad4090"
+    },
+    {
+      "name": "963-x22.k15",
+      "size": 65536,
+      "crc32": "0a74e277",
+      "sha1": "c349d3c25eb05cc30ec1fd823475d971f3649f8b",
+      "sha256": "240d14abc4dc1235e38123cdd6c3e5d1a3c7d1e5671e31fd80949307e3debeaf"
+    },
+    {
+      "name": "963e20.g13",
+      "size": 32768,
+      "crc32": "1692a6d6",
+      "sha1": "68c3419012b2863e91a7d7e479fce5ceabb10b88",
+      "sha256": "523733bc14494f806ad3bb32479db6e853883dc9dd4517aef6dc4c2792d36a61"
+    },
+    {
+      "name": "963a28.h27",
+      "size": 524288,
+      "crc32": "db4769a8",
+      "sha1": "810811914f9c1fbf2320d5a9030cbf124f6d78cf",
+      "sha256": "a98c5abe1e0f5889292f5a89c8e69b8a642b2e362dc89d2b96d0506f2d817290"
+    },
+    {
+      "name": "963a29.k27",
+      "size": 524288,
+      "crc32": "8069cd2e",
+      "sha1": "54095d3546119ccd1e8814d692aceb1327c9369f",
+      "sha256": "896af564ad267d8b990a9f42babc01dc35f7f977ab928e281132f3a5fe6564b3"
+    },
+    {
+      "name": "963a17.h4",
+      "size": 524288,
+      "crc32": "b5239a44",
+      "sha1": "84e94807e7c51aa652b4e4b827b36be59a53d0d6",
+      "sha256": "d799ec1a17a652c065483aa742dd3cc2824ae3712bd294ab3fe567cfd3024b2f"
+    },
+    {
+      "name": "963a18.h6",
+      "size": 524288,
+      "crc32": "dd51adef",
+      "sha1": "5010c0911b0b9e4f23a785e8a751a0bde5be5be0",
+      "sha256": "f2871d2011c2cbdce225241d28a8ddde7306a3cfea3d25f297c35fc0842ffe25"
+    },
+    {
+      "name": "963a15.k4",
+      "size": 524288,
+      "crc32": "1f324eed",
+      "sha1": "971a675578518fffa341a943d0cc4fdea005fde0",
+      "sha256": "75b38bb718522dbcbc68e18d3d65db9fb14fceb5d848bcd7e308fa068b5bc851"
+    },
+    {
+      "name": "963a16.k6",
+      "size": 524288,
+      "crc32": "d4bd9984",
+      "sha1": "d780ae7f72e16767c3a492544f02f0f1a332ab22",
+      "sha256": "9c06610bb8265a031c5b572d1f0562a8b45026f27094ef5926443b81da9651b3"
+    },
+    {
+      "name": "963a30.g7",
+      "size": 256,
+      "crc32": "abd82680",
+      "sha1": "945a71e6ec65202f13209b45d45b616372d6c0f5",
+      "sha256": "570476ae93c7bf91178efadb8abe06caf94285124ce0cc4517c8ddfd362a7577"
+    },
+    {
+      "name": "963a31.g19",
+      "size": 256,
+      "crc32": "f8004a1c",
+      "sha1": "ed6694b8eebfe0238b50ebd05007d519f6e57b1b",
+      "sha256": "e2aff5ccf8526b4996c32b065a13bec9ed5412f2c046603b63925180dd7356fe"
+    },
+    {
+      "name": "963a26.c13",
+      "size": 131072,
+      "crc32": "e2ac3063",
+      "sha1": "5bb294c46fb5eaba9935a18c0aa5d3931168f474",
+      "sha256": "9ec8e9ec7117803bdd922478eab6d23c7a414ceddeb11ad4998378998b9d323e"
+    },
+    {
+      "name": "963a27.d18",
+      "size": 131072,
+      "crc32": "2dfd674b",
+      "sha1": "bbec5896c70056964fbc972a84bd5b0dfc6af257",
+      "sha256": "07a0db2f39a5274b75c15587a7a2c637cf79400bad00302a4fc127fce4dea3b5"
+    },
+    {
+      "name": "963a25.d5",
+      "size": 524288,
+      "crc32": "fca078c7",
+      "sha1": "3e1124d72c9db4cb11d8de6c44b7aeca967f44e1",
+      "sha256": "758827fd883a271c94f9752d1064d175166382b3ef3210c6f2355179fb55d06a"
+    }
+  ],
+  "totalBytes": 4358656
+}

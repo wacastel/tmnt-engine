@@ -1,0 +1,86 @@
+{
+  "game": "Teenage Mutant Ninja Turtles (World 4 Players)",
+  "upstreamCommit": "22e2aebcccf888ba9a041bf6023f3381a4fc86dd",
+  "compilerSHA256": "0dec35e4aef36f07800314dde709ee0ed0b328cf78ce8463467208a065548cf4",
+  "driverSHA256": "fee3c97e4f607eda1c2193ca20f67fbd376b08639e12cef6b579d50f412ff832",
+  "sourceSHA256": {
+    "m68kcpu.c": "6f617fc63aa3f154ad0ff8177e78a4e9b57e7897968133f6a6e9fa9f951d31de",
+    "m68kcpu.h": "f429111910321eab4c436226562ecd4ba9df0f02f12740153c4c9682faa0df50",
+    "m68kconf.h": "754708be08daa58d3827b3c052bf98321fd03252dcd80fa6615be34139d4c315",
+    "m68k.h": "1f492227bfbaf736ee771a71be0b8d82f3f06307aa1f2357582da33362fd7427",
+    "m68kmake.c": "7d21f59b826e7cadca7e25780314f5a52eae117c2b43a6b4df69f533aa460da3",
+    "m68k_in.c": "d6a0656f45dfd28d26675e6c12c498701e1dda06d81af32e2b5c8837ee2281ed"
+  },
+  "programROMs": {
+    "963-x23.j17": {
+      "bytes": 131072,
+      "sha256": "21799f06b3db70be47161d2af3b6b9230a3c7c0d516e0990392c8a829e101a6a"
+    },
+    "963-x24.k17": {
+      "bytes": 131072,
+      "sha256": "f683a19bd7e8174d2e0fc423d9fc77ac27a3899fdf6c4b2f718b78ad268996e7"
+    },
+    "963-x21.j15": {
+      "bytes": 65536,
+      "sha256": "a852ff154d592360b8e699955a66509facad0d0e87f36dd6ba70901c81ad4090"
+    },
+    "963-x22.k15": {
+      "bytes": 65536,
+      "sha256": "240d14abc4dc1235e38123cdd6c3e5d1a3c7d1e5671e31fd80949307e3debeaf"
+    }
+  },
+  "images": {
+    "main": {
+      "bytes": 393216,
+      "sha256": "8a160833564134e57332d7d86204c2f98a9f4eec29b8b973d7c849673ba6af3a",
+      "fixedEntries": 196608
+    }
+  },
+  "uniqueOperationWords": 20939,
+  "specializedFunctions": 15870,
+  "sourceRowsDecodedOffline": 1966,
+  "interpreterFallback": false,
+  "runtimeSelection": "CPU identity0 and 24-bit-normalized fixed program address000000\u201305FFFF only; original PC remains untouched for operand reads and branches.",
+  "memoryGuards": "Every executed operation and indexed extension must match its fixed pinned image word. Unadmitted RAM code fails closed.",
+  "timing": "Original FBNeo Musashi 68000 cycles, prefetch, interrupts, callbacks, and Sek context ABI; no Genesis clock multipliers.",
+  "ramTemplates": [],
+  "playerInvincibility": {
+    "cpu": 0,
+    "pc": "01B6D8",
+    "operation": "ORI.B #2,(A0)",
+    "windowStart": "01B69E",
+    "windowEndExclusive": "01B6E0",
+    "windowSHA256": "5225fd7898b9ece0b03bf9eb2fbc766db3ae9797c66a1e84c85f57f66581a882",
+    "selectedPlayerBase": "062000 + (player - 1) * 0x50",
+    "vulnerableFlagBit": 1,
+    "originalProtectionTimerOffset": "2D",
+    "behavior": "Mask the original ORI immediate source only for the selected player while the native flag is enabled. Original immediate fetch, memory access, ORI result flags and 16-cycle timing remain. The preceding game instruction clears the vulnerability bit and the following instruction controls visibility; timers, health, lives and stage state are not overwritten."
+  },
+  "validation": "Generation verifies pinned source and ROM identities, but does not measure executed coverage; see separate native/reference acceptance reports.",
+  "generatedSHA256": {
+    "Sources/CPU/m68k/m68k.h": "1f492227bfbaf736ee771a71be0b8d82f3f06307aa1f2357582da33362fd7427",
+    "Sources/CPU/m68k/m68kconf.h": "64006342f20feaa92178067230c387ca47db82203be3cc1191235ab8968e9ca5",
+    "Sources/CPU/m68k/m68kcpu.h": "ecca88e954dbea285ae89350e070194911237276b1f1cfbd330ee3078d4581f1",
+    "Sources/Native/generated_m68k.c": "3d517ca130d40598acc4b6cdd52c7d7f4d26e552a9eb94b85143755dd7142fad",
+    "Sources/Native/generated_m68k.h": "0c7413b41c3880154fd241697193908b6d4bebbc068ffbe8ed92b54cf1f064af",
+    "Sources/Native/generated_m68k_ops_00.c": "cd5da497fe92da9fc9bcee27de7fa312407c32b7e9679e6213006f79a7a28f37",
+    "Sources/Native/generated_m68k_ops_01.c": "7e84763d35d743a8fe9158e0d556c47b93773ecce0797cdc5db6acd55a6bbde8",
+    "Sources/Native/generated_m68k_ops_02.c": "6d26d073431ac6225b73281f1acc8cf77a16ef8f52a80a9a9780a93f511afe82",
+    "Sources/Native/generated_m68k_ops_03.c": "da0e129cb3b7af3127c541bec2876fbe93b8fa956f68faae90aae9ba7b881b45",
+    "Sources/Native/generated_m68k_ops_04.c": "f8a19626c04e14f4b6ad7044f953712c79ea246219d9106d2fe066a27c0eaa00",
+    "Sources/Native/generated_m68k_ops_05.c": "d8445a7ad183264382570da8465f41ddf7660af7585c36c1808efe5d77febdca",
+    "Sources/Native/generated_m68k_ops_06.c": "15fed5c656c6c2db347d10068748c33759a1856ae2d3cf1232da8cce12901c3c",
+    "Sources/Native/generated_m68k_ops_07.c": "4adbe8c20c31353f52fd21eabdbb0baf983357b01bbd45267ad9f4464af32873",
+    "Sources/Native/generated_m68k_ops_08.c": "66ee589485e5439cb2265e5f49c6eb6961358297c8b6efad47adca408ee617f0",
+    "Sources/Native/generated_m68k_ops_09.c": "c978b6f27e76978ecacaafc30e22b2ebb2bbfb9d90f9618f471fa914b197f107",
+    "Sources/Native/generated_m68k_ops_10.c": "9806f4ba3157fa4d79b3639961806296950b4bb2fd72f21645bf364c7a6bbb70",
+    "Sources/Native/generated_m68k_ops_11.c": "4fbd403b1f702c52c1f71e9c2e7c5641131f4d6c2f136d5263c05b83d1c9d535",
+    "Sources/Native/generated_m68k_ops_12.c": "b510344535a4a848e7b5a8488f1df631c67e3b61e890b652194ba63ddfd8cf14",
+    "Sources/Native/generated_m68k_ops_13.c": "a7931ca6fe9eae883b38d31439ea5603e55ae01d66bf7164daf56488d8e4e11d",
+    "Sources/Native/generated_m68k_ops_14.c": "fb1e14ca3fc63f46defaee9c514e7a4dc92c8c44bed9bd001bb5c841356f5044",
+    "Sources/Native/generated_m68k_ops_15.c": "8205c3fb8cce4720567a92f9780781c778f2c2a8018f722a9d72e37a072faba0",
+    "Sources/Native/generated_m68k_ops_16.c": "003e5b1c046cd01de1d8fc17b4c00af22d6d893396351395ae5c4372b9d3a5d3",
+    "Sources/Native/generated_m68k_ops_17.c": "4c4fc07d5f96aff342fa73ede051ab2231632628c902d147366c5c4978a94d99",
+    "Sources/Native/generated_m68k_program.inc": "a4d13f9b211b9698563a036b9cfb5bb8c6a98c2384e628918155fca1b7da2f1a"
+  }
+}
