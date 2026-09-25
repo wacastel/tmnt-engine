@@ -19,10 +19,12 @@ semantics. The generated source is compiled directly by clang to arm64. Generate
 program-specific entries stay in ignored files and are recreated from pinned
 local media. Generation metadata is under Documentation.
 
-The unchanged FBNeo d_tmnt.cpp driver is included in the native bridge's
+The pinned FBNeo d_tmnt.cpp driver is included in the native bridge's
 translation unit to encapsulate its static RAM and input state. Its original
 Konami K052109/K051960 graphics, YM2151, K007232, UPD7759 and title sample rendering
-are shared by native and reference builds. Other Konami support functions used
+are shared by native and reference builds. A narrowly scoped portability fix
+uses defined integer arithmetic to decode the Yamaha-format title song; see
+[the audio correction](title-audio-fix.md). Other Konami support functions used
 by the common chip lifecycle are retained; only TMNT is registered as a game.
 
 The board driver runs a 60 Hz schedule (8 MHz 68000 and 3.579545 MHz Z80) with

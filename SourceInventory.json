@@ -38,28 +38,43 @@
     },
     {
       "path": "Documentation/native-acceptance.json",
-      "bytes": 41533,
-      "sha256": "3991cf7f1be30e5cdf12bd0c85102aa49c1a9d2e59995cbd9dcf8970bdb6122a"
+      "bytes": 41531,
+      "sha256": "eb5516d0660b0f0031f6893433a1a289d0649c4c49a32c5685771244d6fd3538"
     },
     {
       "path": "Documentation/native-build-manifest.json",
       "bytes": 72083,
-      "sha256": "46c35a8c2d9f45fdd1786fbe0e77c0f1ebbec36044c34c2edb7d24f1009d52fa"
+      "sha256": "769b30d19ec25846556cd7fd9ac0fcb8d6c5c1fe507d07f992f31263040226be"
     },
     {
       "path": "Documentation/native-engine.md",
-      "bytes": 2860,
-      "sha256": "837d93f9e1bcda168d5e0abe5de34665f193f5688aea465f44c9e1c67614b621"
+      "bytes": 3011,
+      "sha256": "2a4f1d6849c852737f94b125fdc566b7f31c2e998ab7afed5deb4ebd594d26c1"
     },
     {
       "path": "Documentation/native-source-audit.json",
-      "bytes": 1129,
-      "sha256": "5c1fa42309b1c0bf03828eb5fc50124c47ab35271623c8409e24aebb7f457162"
+      "bytes": 1446,
+      "sha256": "8a32cff4994f8d7ec06b1821f4ad1065f6766f7006ba0dcaa70127bf2bb0338d"
     },
     {
       "path": "Documentation/reference-build-manifest.json",
       "bytes": 74613,
-      "sha256": "9a090d387553db83fbe7caeb28bd5983ed5dbb2e410229afd26b14ce3926b8d7"
+      "sha256": "6f3ffeed2bc9833b54da6c581f7011604595b38abb90fd171d2afdf1dcc14871"
+    },
+    {
+      "path": "Documentation/title-audio-acceptance.json",
+      "bytes": 5435,
+      "sha256": "a641d30cde9fa06855059d928fd729fdb616510e2a456e2f26760891c9f849ee"
+    },
+    {
+      "path": "Documentation/title-audio-fix.md",
+      "bytes": 4218,
+      "sha256": "58495fb66a5fc2dc1212ca295b927003bbd1cd0f212fe391ce22fd1843f4194d"
+    },
+    {
+      "path": "Documentation/title-audio-integration.json",
+      "bytes": 1790,
+      "sha256": "0d697306ff2ac8eeec50e4b6ae83733f15e963eea083ee16f824bcfbff44c7c6"
     },
     {
       "path": "Documentation/z80-fixture-acceptance.json",
@@ -88,8 +103,8 @@
     },
     {
       "path": "Licenses/README.md",
-      "bytes": 1700,
-      "sha256": "f1076ba97cc0e98fbb3ee8ea97697bd7e838c701f8409047e5a4a044bd05dfbb"
+      "bytes": 1825,
+      "sha256": "d4bfacde112e237ca07c88dc3bb9a31c2d048b4a36ea927415455b3e4ab22292"
     },
     {
       "path": "Licenses/Z80.txt",
@@ -98,13 +113,13 @@
     },
     {
       "path": "Licenses/provenance.json",
-      "bytes": 9609,
-      "sha256": "5d508a7a8de527e9e183435f2f2ab50436a6fcd4670bc650f77de2fb52041515"
+      "bytes": 9877,
+      "sha256": "e1110aa717b5edd9dfe6167a8279bb8d7008897a8f35f4b14007d244b1504ef9"
     },
     {
       "path": "README.md",
-      "bytes": 3629,
-      "sha256": "47cb70f41f0b4f3c6c9fd389929c8c077ecf499fce850e4c2e15ab4800c8923d"
+      "bytes": 3755,
+      "sha256": "0dcab5dc86f811bbf207349ff7a8ed4ea355bd49d8e4388ff65e722d48be9e93"
     },
     {
       "path": "Sources/CPU/adsp2100/adsp2100.h",
@@ -1428,8 +1443,8 @@
     },
     {
       "path": "Sources/Hardware/burn/drv/konami/d_tmnt.cpp",
-      "bytes": 241047,
-      "sha256": "fee3c97e4f607eda1c2193ca20f67fbd376b08639e12cef6b579d50f412ff832"
+      "bytes": 241282,
+      "sha256": "e8d54c6f8fcbf8fb04e2ef8981f7175dd53db5fac2f3db9c5b370bd16efd2b48"
     },
     {
       "path": "Sources/Hardware/burn/drv/konami/k007121.cpp",
@@ -2980,6 +2995,11 @@
       "path": "scripts/import_assets.py",
       "bytes": 3722,
       "sha256": "491a6750dc67f84478fa86bb73b7e0216395982a70e386983ef786080702a5ad"
+    },
+    {
+      "path": "scripts/verify_title_audio.py",
+      "bytes": 9750,
+      "sha256": "a25a050d947b8464f28884f4f136ac71cb4b6bef61d5ceefcea8e3b60734233b"
     }
   ]
 }

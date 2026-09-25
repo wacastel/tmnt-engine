@@ -4584,15 +4584,14 @@ static void MiaUnscrambleSprites()
 static void TmntDecodeTitleSample()
 {
 	for (INT32 i = 0; i < 0x40000; i++) {
-		INT32 val = DrvTempRom[2 * i + 0] + (DrvTempRom[(2 * i) + 1] << 8);
-		INT32 expo = val >> 13;
+		const INT32 packed = DrvTempRom[2 * i] | (DrvTempRom[2 * i + 1] << 8);
+		const INT32 scale = 1 << (packed >> 13);
+		const INT32 mantissa = (packed >> 3) & 0x3ff;
 
-	  	val = (val >> 3) & (0x3ff);
-		val -= 0x200;
-
-		val <<= (expo-3);
-
-		DrvTitleSample[i] = val;
+		// Yamaha floating-point PCM, at the original quarter-scale gain.
+		// Keep the scaled mantissa nonnegative: shifting by exponent - 3
+		// is undefined for quiet samples and corrupts arm64 vector output.
+		DrvTitleSample[i] = (mantissa * scale) / 8 - 64 * scale;
 	}
 }
 

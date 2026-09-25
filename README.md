@@ -34,8 +34,9 @@ fixed 68000 and Z80 entries offline from Assets, and compiles arm64 artifacts:
 Generated program-specific sources are ignored and must remain local. Their
 generation is not a claim of complete executed-game coverage. Historical
 acceptance reports under Documentation describe the exact measured routes and
-their limits; the standalone source companion omits the private project's test
-harnesses and macOS UI.
+their limits. The standalone source companion includes the ROM-free title-song
+decoder regression (`python3 scripts/verify_title_audio.py`, after importing
+local media); other private test harnesses and the macOS UI are omitted.
 
 For development only, `python3 scripts/build_native.py --reference` builds the
 original CPU interpreters into build/reference. The normal native library has

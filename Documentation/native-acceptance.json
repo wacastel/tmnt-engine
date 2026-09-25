@@ -4,10 +4,10 @@
   "scope": "Input-only deterministic native versus pinned original CPUs; exact architectural snapshot, all board RAM, RGBA pixels and stereo PCM on every frame. Invincibility disabled during equivalence routes.",
   "limitations": "These scripted routes do not prove complete stage/boss coverage or physical controller behavior. Invincibility collision fixtures and native macOS UI checks are separate.",
   "provenance": {
-    "nativeLibrarySHA256": "7ec3c7b20d4a3e01da27ded982275239a52860b78dccb39b45719d46fc83b388",
-    "referenceLibrarySHA256": "b87e24d0aba3879824d90cc213256f34b329fd73f52a2c1b777fd58b4ba979a1",
-    "nativeBuildManifestSHA256": "46c35a8c2d9f45fdd1786fbe0e77c0f1ebbec36044c34c2edb7d24f1009d52fa",
-    "referenceBuildManifestSHA256": "9a090d387553db83fbe7caeb28bd5983ed5dbb2e410229afd26b14ce3926b8d7",
+    "nativeLibrarySHA256": "83d3dd61ceb21d509b1739e425423bf3bb15eb153c578965ba5fab7523f1634e",
+    "referenceLibrarySHA256": "2a70d0bb79682f174915d7b75d382c4e7345d4d9c435e1bd38dba2eb982ff8a2",
+    "nativeBuildManifestSHA256": "769b30d19ec25846556cd7fd9ac0fcb8d6c5c1fe507d07f992f31263040226be",
+    "referenceBuildManifestSHA256": "6f3ffeed2bc9833b54da6c581f7011604595b38abb90fd171d2afdf1dcc14871",
     "mediaIdentitySHA256": "81ba1d99335ae4eea56002dfce138e36dd834cd172565867611d5d2d4b95c891",
     "verificationSHA256": "fa815d27169d9d797f78bd0a949a4db85651bd64d4dde35fcfb8059a114ecb22"
   },
@@ -15,12 +15,12 @@
     {
       "name": "attract-title-audio",
       "comparedFrames": 14400,
-      "elapsedSeconds": 17.622,
+      "elapsedSeconds": 16.85,
       "streamSHA256": {
         "state": "914dc3f6c41d13f5f23ec2352e3d2ed13ea520512259742421cbbef35bc53464",
         "ram": "f386fa189f04a86539384f5a1a98b90be2ea45fe1577c70cca85da432440ec84",
         "pixels": "10637dea42f73646b33c27855a653864df27cf8e49032305f8d9d023b19445c2",
-        "audio": "ababf7b726c019dba1e5f3185591a7cc382631a7af575e70fc76de5a4d6c6c47"
+        "audio": "66735755f57698d3d8a66d64aaa04b61f9e065db5851188cd6053a6bfc6445b6"
       },
       "nonzeroAudioFrames": 10787,
       "observedActiveSlots": [
@@ -496,12 +496,12 @@
     {
       "name": "four-player-switching",
       "comparedFrames": 14400,
-      "elapsedSeconds": 19.727,
+      "elapsedSeconds": 19.019,
       "streamSHA256": {
         "state": "eac750cdfca30e1a24f09fd3a5a66e97b8a41172c1510d639ae1e73637e2bf82",
         "ram": "a76ccc187c627eca418b3783388afd265670c652ab1ad815c794a97038f94e0a",
         "pixels": "3969085fd3f8bdb58941894edb47578a76df8189b98d048bcc846c37ccf5956f",
-        "audio": "54d742176d0ef5947b86b082ee7a6238db4b7f109f299fb78418883fe530a011"
+        "audio": "c3bb93638a416624ade5168324d1436b1b87b8857e3fc59fc469ea67bafc0773"
       },
       "nonzeroAudioFrames": 13727,
       "observedActiveSlots": [
@@ -977,12 +977,12 @@
     {
       "name": "player-1",
       "comparedFrames": 3600,
-      "elapsedSeconds": 4.625,
+      "elapsedSeconds": 4.511,
       "streamSHA256": {
         "state": "b2e81193a706b57a8c4e405c83908c11bf256086244c4b70de365e77c2ff5567",
         "ram": "3f2556d517c635fa6252dceb30636c03b78ab5b2c0a030456e93a2dcb27e2578",
         "pixels": "dc0698071cd8100ba42249a2d8a876501a2373c8f2fd5137a78ed8228bf589cb",
-        "audio": "17b051243b32ede0187a08250a0afe0f1f01805d69477c805cb86f9618c85371"
+        "audio": "61b38f0acd27e14e44d58e25cf47969d53273b7ec13f0283ef7c5f1d5937cb36"
       },
       "nonzeroAudioFrames": 2856,
       "observedActiveSlots": [
@@ -1320,12 +1320,12 @@
     {
       "name": "player-2",
       "comparedFrames": 3600,
-      "elapsedSeconds": 4.572,
+      "elapsedSeconds": 4.573,
       "streamSHA256": {
         "state": "cd35df5354408be537c82655f0d8df07efe2be11af3be389b2f8c5ecca3799aa",
         "ram": "a88da7a76f4ba39556d53e6f4d85440fa6c044af8fa6d0163705abf7608007cd",
         "pixels": "6a23a4f0d0807d91c01a00e5d50c5ab9af3b3f86578b066096b0df9d196c26c8",
-        "audio": "0001bb0599ed2027dec8b5962090a53faaaf6dfa3136656779119029bd71b147"
+        "audio": "184f70139c403cb519131100eca90b919e4111266a2c43dd3e487490b2b8fb37"
       },
       "nonzeroAudioFrames": 2856,
       "observedActiveSlots": [
@@ -1663,12 +1663,12 @@
     {
       "name": "player-3",
       "comparedFrames": 3600,
-      "elapsedSeconds": 4.614,
+      "elapsedSeconds": 4.36,
       "streamSHA256": {
         "state": "8b5863e4c6bae8eb30bfd9a607a56958575f269680f83e38d1e64a5bcdfb8fdf",
         "ram": "4f49ce0389ed22bede8a22d33e1ead0a2abb0218bd14159c3e71106810d647b6",
         "pixels": "779afd85dfd3a3a38a79f5845b63ad4e143912c9dd538483c980ade436e9448a",
-        "audio": "8c5aae32d172994620a4d266c0d2f7c846da4e01fd1f722f19bee54d02de7513"
+        "audio": "055901cea4225be3debcbeff56484265afb56496315866d722e79de47a8c4561"
       },
       "nonzeroAudioFrames": 2856,
       "observedActiveSlots": [
@@ -2006,12 +2006,12 @@
     {
       "name": "player-4",
       "comparedFrames": 3600,
-      "elapsedSeconds": 4.586,
+      "elapsedSeconds": 4.355,
       "streamSHA256": {
         "state": "54a479386986e4fc0846d19357dd5a0a0e388d6293390b7f18868b95e10b6156",
         "ram": "2626828fcce921e982069c873c7d570c2def3bedb268497c0a22544eb49ab274",
         "pixels": "59f8f890e6e591d6254180c8eb5226c92e0d3ec5c1e739b7e2466d03126d19ca",
-        "audio": "072d7b3918a6484f6cc14d148e43974d20191dd74ed3b2f9c889fef8a2b63e27"
+        "audio": "997affc93463f0b784d7a4eea40ead8f1756cff85448a5d5a9ada6740941823c"
       },
       "nonzeroAudioFrames": 2856,
       "observedActiveSlots": [
@@ -2355,5 +2355,5 @@
     "newSessionStartsPlayerOneCheatOff": true
   },
   "totalDifferentialFrames": 43200,
-  "elapsedSeconds": 60.898
+  "elapsedSeconds": 58.643
 }

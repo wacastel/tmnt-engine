@@ -312,7 +312,7 @@
     "Sources/Hardware/burn/drv/gba/gbatimer.h": "8660e7e15239960c40c444098db87cb4f38649c2d8c01d0cb4b43fcaf3b5c290",
     "Sources/Hardware/burn/drv/irem/irem_cpu.h": "22989c8f973c8f65eaf7c2f3c0adcaddb1c02b00f3d3e951f8b0b7605475ef4d",
     "Sources/Hardware/burn/drv/irem/irem_sound.h": "dc7b9e83f67d1a3c358e820a919dfa48c0a1e8b36ecdadddd1bb3f1966554c3b",
-    "Sources/Hardware/burn/drv/konami/d_tmnt.cpp": "fee3c97e4f607eda1c2193ca20f67fbd376b08639e12cef6b579d50f412ff832",
+    "Sources/Hardware/burn/drv/konami/d_tmnt.cpp": "e8d54c6f8fcbf8fb04e2ef8981f7175dd53db5fac2f3db9c5b370bd16efd2b48",
     "Sources/Hardware/burn/drv/konami/k007121.h": "164edcd1c06819d7cde513f28f7a9a95702f07c4c8ac9fbe9ae01b82c478e627",
     "Sources/Hardware/burn/drv/konami/k007342_k007420.h": "c1e2e45719582b6b51d0cf08ccf008fe4ca61719e16d97c635f14d69a5475909",
     "Sources/Hardware/burn/drv/konami/k007452.h": "467438d9b0e95b657342d004c6c239589e491dc16f407a8522b9d3aebee65945",
@@ -710,6 +710,6 @@
     "-I/Users/william/dev/tmnt/Sources/Hardware/intf/video/switchres",
     "-I/Users/william/dev/tmnt/Sources/Hardware/intf/video/win32"
   ],
-  "librarySHA256": "7ec3c7b20d4a3e01da27ded982275239a52860b78dccb39b45719d46fc83b388",
-  "archiveSHA256": "8d77320a0a5d47aadc3f6aec4321467517cc120bc7975b51eede01c5fe4066b5"
+  "librarySHA256": "83d3dd61ceb21d509b1739e425423bf3bb15eb153c578965ba5fab7523f1634e",
+  "archiveSHA256": "20dcf1ea2857e580f3e0ccd017eb5efda5e8f130f5d6cbc045cca3f6fea2de57"
 }

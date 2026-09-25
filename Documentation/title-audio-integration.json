@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "scope": "Actual initialized board title sample array matches independent Yamaha formula; instrumented and shipping library outputs identical every frame.",
+  "decodedSamplesCompared": 262144,
+  "decodedPCM_SHA256": "3c07f757a5f84f8386083e143ccd5b7bba9d663a372986a231716d21e918943b",
+  "nativeLibrarySHA256": "83d3dd61ceb21d509b1739e425423bf3bb15eb153c578965ba5fab7523f1634e",
+  "nativeBuildManifestSHA256": "769b30d19ec25846556cd7fd9ac0fcb8d6c5c1fe507d07f992f31263040226be",
+  "baselineLibrarySHA256": "7ec3c7b20d4a3e01da27ded982275239a52860b78dccb39b45719d46fc83b388",
+  "baselineCompared": true,
+  "routes": [
+    {
+      "route": "title",
+      "frames": 3600,
+      "exactProductProbeFrames": 3600,
+      "titleActiveFrames": 807,
+      "unchangedNonTitleAudioFrames": 2781,
+      "limiterSettlingFrames": 12,
+      "correctedTitleOrLimiterAudioFrames": 787,
+      "unchangedStateRAMAndPixelFrames": 3600,
+      "audioSHA256": "f6a543cc17a6ba32aba133da66dca6bdd8f7b76473a1cec79b6020334f787a7d"
+    },
+    {
+      "route": "gameplay",
+      "frames": 7200,
+      "exactProductProbeFrames": 7200,
+      "titleActiveFrames": 1520,
+      "unchangedNonTitleAudioFrames": 5656,
+      "limiterSettlingFrames": 24,
+      "correctedTitleOrLimiterAudioFrames": 1511,
+      "unchangedStateRAMAndPixelFrames": 7200,
+      "audioSHA256": "0eaec582cb402010b722659c79ac7ed48118058f2f550bd16ea97248f54a13e2"
+    }
+  ],
+  "testScriptSHA256": "e1f18443452b294f581da888f60b18f58ce28c6d8c0b27b723920a2df8a89c41",
+  "nonTitleComparison": "Exact audio outside actual title-mixer calls and the unchanged limiter response of 200ms after title playback.",
+  "limits": "Before/after routes cover title and scripted first-stage gameplay, not a full campaign or acoustic speaker capture."
+}

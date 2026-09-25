@@ -11,9 +11,11 @@ notices and source files to the archive.
 The app translates one 68000 program and one Z80 program offline. The arithmetic,
 interrupt and memory semantics derive from Musashi and FBNeo's Z80 core. The
 original interpreter cores are used only in the isolated development reference.
-The unchanged Konami board driver provides original graphics, sound, timing and
+The Konami board driver provides original graphics, sound, timing and
 I/O to both builds. The bridge supplies host services and selected-player input;
 the offline translator adds the separate, optional player vulnerability gate.
+The title-song decoder has a documented integer-arithmetic portability fix;
+its original source notice and sample scale are preserved.
 
 The upstream terms include noncommercial restrictions, publication of source
 changes, preservation of notices, and restrictions on ROM distribution. The full

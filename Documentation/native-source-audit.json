@@ -2,18 +2,25 @@
   "passed": true,
   "archiveSHA256": "842426132da94f3987543c74576df1b2388d4377054a3c01c82bdae83580d34c",
   "upstreamHardwareFilesChecked": 426,
-  "approvedHardwareEdits": [],
+  "approvedHardwareEdits": [
+    {
+      "path": "burn/drv/konami/d_tmnt.cpp",
+      "reason": "Defined Yamaha title PCM arithmetic; no negative shifts",
+      "upstreamSHA256": "fee3c97e4f607eda1c2193ca20f67fbd376b08639e12cef6b579d50f412ff832",
+      "modifiedSHA256": "e8d54c6f8fcbf8fb04e2ef8981f7175dd53db5fac2f3db9c5b370bd16efd2b48"
+    }
+  ],
   "unchangedCPUInterfaces": 4,
   "builds": {
     "native": {
-      "manifestSHA256": "46c35a8c2d9f45fdd1786fbe0e77c0f1ebbec36044c34c2edb7d24f1009d52fa",
+      "manifestSHA256": "769b30d19ec25846556cd7fd9ac0fcb8d6c5c1fe507d07f992f31263040226be",
       "translationUnits": 62,
-      "librarySHA256": "7ec3c7b20d4a3e01da27ded982275239a52860b78dccb39b45719d46fc83b388"
+      "librarySHA256": "83d3dd61ceb21d509b1739e425423bf3bb15eb153c578965ba5fab7523f1634e"
     },
     "reference": {
-      "manifestSHA256": "9a090d387553db83fbe7caeb28bd5983ed5dbb2e410229afd26b14ce3926b8d7",
+      "manifestSHA256": "6f3ffeed2bc9833b54da6c581f7011604595b38abb90fd171d2afdf1dcc14871",
       "translationUnits": 48,
-      "librarySHA256": "b87e24d0aba3879824d90cc213256f34b329fd73f52a2c1b777fd58b4ba979a1"
+      "librarySHA256": "2a70d0bb79682f174915d7b75d382c4e7345d4d9c435e1bd38dba2eb982ff8a2"
     }
   },
   "dependencies": [

@@ -198,7 +198,9 @@
     {
       "compiledPath": "Sources/Hardware/burn/drv/konami/d_tmnt.cpp",
       "upstreamPath": "src/burn/drv/konami/d_tmnt.cpp",
-      "upstreamSHA256": "fee3c97e4f607eda1c2193ca20f67fbd376b08639e12cef6b579d50f412ff832"
+      "upstreamSHA256": "fee3c97e4f607eda1c2193ca20f67fbd376b08639e12cef6b579d50f412ff832",
+      "localSHA256": "e8d54c6f8fcbf8fb04e2ef8981f7175dd53db5fac2f3db9c5b370bd16efd2b48",
+      "localModification": "Replace undefined Yamaha title PCM shifts with bounded integer arithmetic; retain original quarter-scale gain. See Documentation/title-audio-fix.md."
     },
     {
       "compiledPath": "Sources/CPU/m68000_intf.cpp",

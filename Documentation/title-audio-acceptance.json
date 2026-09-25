@@ -1,0 +1,150 @@
+{
+  "passed": true,
+  "scope": "Compiled production title decoder; no claim of acoustic or full-system validation",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+  "platform": {
+    "system": "Darwin",
+    "machine": "arm64"
+  },
+  "productionDriverSHA256": "e8d54c6f8fcbf8fb04e2ef8981f7175dd53db5fac2f3db9c5b370bd16efd2b48",
+  "productionDecoderSHA256": "3e48cd4a86584301bb39f2848ecae60da8fced2a6f10c78673ef6591673bba0e",
+  "legacyDecoderSHA256": "a7204e03d416c02d889fff959bbe3084314e83cfbf089b974d03b904412a3784",
+  "legacyArchiveSHA256": "842426132da94f3987543c74576df1b2388d4377054a3c01c82bdae83580d34c",
+  "legacyRevision": "22e2aebcccf888ba9a041bf6023f3381a4fc86dd",
+  "oracle": {
+    "method": "Yamaha sign/exponent inversion; signed 16-bit narrowing; arithmetic right shift; floor divide by four",
+    "mameRevision": "70642b82cb651a3e6a1b3a470b5637123fb63ab8",
+    "driverURL": "https://github.com/mamedev/mame/blob/70642b82cb651a3e6a1b3a470b5637123fb63ab8/src/mame/konami/tmnt.cpp",
+    "decoderURL": "https://github.com/mamedev/mame/blob/70642b82cb651a3e6a1b3a470b5637123fb63ab8/3rdparty/ymfm/src/ymfm.h",
+    "quarterScalePreserved": true
+  },
+  "rom": {
+    "filename": "963a25.d5",
+    "bytes": 524288,
+    "crc32": "fca078c7",
+    "sha256": "758827fd883a271c94f9752d1064d175166382b3ef3210c6f2355179fb55d06a",
+    "exponentCounts": {
+      "1": 31885,
+      "2": 15531,
+      "3": 26354,
+      "4": 44879,
+      "5": 66658,
+      "6": 62153,
+      "7": 14684
+    }
+  },
+  "production": {
+    "optimized": {
+      "fixtureSourceSHA256": "46f1da0762f06502eebb0e2d61f0fd122103370c13cb87ef19c0f851f54baa65",
+      "fixtureExecutableSHA256": "be4a3c5fd31f66d8c39101875621293c046e261177370c607ffefdd78562f851",
+      "flags": [
+        "-std=c++11",
+        "-arch",
+        "arm64",
+        "-mmacosx-version-min=14.0",
+        "-O2",
+        "-fwrapv",
+        "-fno-strict-aliasing",
+        "-fno-common"
+      ],
+      "uniquePackedWordsChecked": 65536,
+      "exhaustiveDecodedFrames": 262144,
+      "exhaustiveMismatches": 0,
+      "titleMismatches": 0,
+      "exhaustivePCMSHA256": "821ad94082b150337aaadd4f4d5c6aaf5ecefc0abd2d2e147afe84068d328960",
+      "title": {
+        "pcmSHA256": "3c07f757a5f84f8386083e143ccd5b7bba9d663a372986a231716d21e918943b",
+        "sampleFrames": 262144,
+        "sampleRateHz": 20000,
+        "durationSeconds": 13.1072,
+        "minimum": -8192,
+        "maximum": 8176,
+        "rms": 2048.951690244884,
+        "mean": -0.6147956848144531,
+        "zeroSamples": 276,
+        "samplesOutsideExpectedRange": 0
+      },
+      "sanitizerDiagnostics": null
+    },
+    "undefinedBehaviorSanitizer": {
+      "fixtureSourceSHA256": "46f1da0762f06502eebb0e2d61f0fd122103370c13cb87ef19c0f851f54baa65",
+      "fixtureExecutableSHA256": "e2028614e9f422daa0be058a7a3d643c6c89aa916a1c9a153809e823387f4d27",
+      "flags": [
+        "-std=c++11",
+        "-arch",
+        "arm64",
+        "-mmacosx-version-min=14.0",
+        "-O2",
+        "-fwrapv",
+        "-fno-strict-aliasing",
+        "-fno-common",
+        "-fsanitize=undefined",
+        "-fno-sanitize-recover=all"
+      ],
+      "uniquePackedWordsChecked": 65536,
+      "exhaustiveDecodedFrames": 262144,
+      "exhaustiveMismatches": 0,
+      "titleMismatches": 0,
+      "exhaustivePCMSHA256": "821ad94082b150337aaadd4f4d5c6aaf5ecefc0abd2d2e147afe84068d328960",
+      "title": {
+        "pcmSHA256": "3c07f757a5f84f8386083e143ccd5b7bba9d663a372986a231716d21e918943b",
+        "sampleFrames": 262144,
+        "sampleRateHz": 20000,
+        "durationSeconds": 13.1072,
+        "minimum": -8192,
+        "maximum": 8176,
+        "rms": 2048.951690244884,
+        "mean": -0.6147956848144531,
+        "zeroSamples": 276,
+        "samplesOutsideExpectedRange": 0
+      },
+      "sanitizerDiagnostics": 0
+    }
+  },
+  "negativeControl": {
+    "fixtureSourceSHA256": "089fa9d2123cff31f170a946d5fc728fb3005b3c54e1f17c8b4b34ec7c28a091",
+    "fixtureExecutableSHA256": "b8e07f2d9659f7c98b1eb856ae172948d17ed08a7f839c75bcecbc5ad1ce1379",
+    "flags": [
+      "-std=c++11",
+      "-arch",
+      "arm64",
+      "-mmacosx-version-min=14.0",
+      "-O2",
+      "-fwrapv",
+      "-fno-strict-aliasing",
+      "-fno-common"
+    ],
+    "exhaustiveMismatches": 98304,
+    "titleMismatches": 47416,
+    "title": {
+      "pcmSHA256": "6a6fb5d2c9729667d80f77be64f411b826505decb68a9e0efec25304c3111542",
+      "sampleFrames": 262144,
+      "sampleRateHz": 20000,
+      "durationSeconds": 13.1072,
+      "minimum": -32640,
+      "maximum": 32639,
+      "rms": 9986.012913268107,
+      "mean": 1988.3227043151855,
+      "zeroSamples": 0,
+      "samplesOutsideExpectedRange": 47416
+    },
+    "undefinedBehaviorSanitizer": {
+      "fixtureSourceSHA256": "089fa9d2123cff31f170a946d5fc728fb3005b3c54e1f17c8b4b34ec7c28a091",
+      "fixtureExecutableSHA256": "6032657a868f372a887c76034af650399ba347878b3e3a22429acc6715193a90",
+      "flags": [
+        "-std=c++11",
+        "-arch",
+        "arm64",
+        "-mmacosx-version-min=14.0",
+        "-O2",
+        "-fwrapv",
+        "-fno-strict-aliasing",
+        "-fno-common",
+        "-fsanitize=undefined",
+        "-fno-sanitize-recover=all"
+      ],
+      "exitCode": -6,
+      "diagnostic": "shift exponent -3 is negative"
+    }
+  }
+}
